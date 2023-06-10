@@ -1,5 +1,5 @@
 import { DotsHorizontalIcon } from "@heroicons/react/outline";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function Trending({ result }) {
   return (
@@ -24,9 +24,12 @@ function Trending({ result }) {
           src={result.img}
           width={70}
           height={70}
-          objectFit="cover"
           className="rounded-2xl"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+            objectFit: "cover"
+          }} />
       ) : (
         <div className="icon group">
           <DotsHorizontalIcon className="h-5 text-[#6e767d] group-hover:text-[#1d9bf0]" />

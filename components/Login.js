@@ -1,5 +1,5 @@
 import { signIn } from "next-auth/react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React from "react";
 
 function Login({providers}) {
@@ -9,8 +9,11 @@ function Login({providers}) {
         src="https://rb.gy/ogau5a"
         width={150}
         height={150}
-        objectFit="contain"
-      />
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+          objectFit: "contain"
+        }} />
 
       <div>
         {Object.values(providers).map((provider) => (

@@ -1,6 +1,6 @@
 import { SearchIcon } from "@heroicons/react/outline";
 import Trending from "./Trending";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function Widgets({ trendingResults, followResults }) {
   return (
@@ -37,9 +37,12 @@ function Widgets({ trendingResults, followResults }) {
               src={result.userImg}
               width={50}
               height={50}
-              objectFit="cover"
               className="rounded-full"
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+                objectFit: "cover"
+              }} />
             <div className="ml-4 leading-5 group">
               <h4 className="font-bold group-hover:underline">
                 {result.username}

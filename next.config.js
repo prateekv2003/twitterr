@@ -5,7 +5,7 @@
 
 module.exports = {
   images: {
-    domains: ["rb.gy"],
+    domains: ["rb.gy","https://rb.gy/"],
   },
 };
 

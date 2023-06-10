@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import SidebarLink from './SidebarLink'
 import { HomeIcon } from '@heroicons/react/solid'
 import {

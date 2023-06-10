@@ -35,6 +35,7 @@ function Widgets({ trendingResults, followResults }) {
           >
             <Image
               src={result.userImg}
+              alt="user"
               width={50}
               height={50}
               className="rounded-full"

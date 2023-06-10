@@ -21,6 +21,7 @@ function Sidebar() {
       <div className='flex items-center justify-center hoverAnimation p-0 w-14 h-14 xl:ml-24'>
         <Image
           src="https://rb.gy/ogau5a"
+          alt="logo"
           width={30}
           height={30}
           style={{

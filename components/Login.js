@@ -7,6 +7,7 @@ function Login({providers}) {
     <div className="flex flex-col items-center space-y-20 pt-48">
       <Image
         src="https://rb.gy/ogau5a"
+        alt="logo"
         width={150}
         height={150}
         style={{

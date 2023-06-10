@@ -22,6 +22,7 @@ function Trending({ result }) {
       {result.img ? (
         <Image
           src={result.img}
+          alt="trending"
           width={70}
           height={70}
           className="rounded-2xl"

@@ -33,13 +33,13 @@ function Widgets({ trendingResults, followResults }) {
             className="hover:bg-white hover:bg-opacity-[0.03] px-4 py-2 cursor-pointer transition duration-200 ease-out flex items-center"
             key={index}
           >
-            <Image
+            <img
               src={result.userImg}
               alt="user"
-              width={50}
-              height={50}
               className="rounded-full"
               style={{
+                width: "50px",
+                height: "50px",
                 maxWidth: "100%",
                 height: "auto",
                 objectFit: "cover"

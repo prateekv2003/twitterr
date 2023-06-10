@@ -9,6 +9,8 @@ function Login({providers}) {
         src="https://rb.gy/ogau5a"
         alt="logo"
         style={{
+          width: "150px",
+          height: "150px",
           maxWidth: "100%",
           height: "auto",
           objectFit: "contain"

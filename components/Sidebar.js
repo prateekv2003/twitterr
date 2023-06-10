@@ -19,12 +19,12 @@ function Sidebar() {
   return (
     <div className='hidden sm:flex flex-col items-center xl:items-start xl:w-[340px] p-2 fixed h-full'>
       <div className='flex items-center justify-center hoverAnimation p-0 w-14 h-14 xl:ml-24'>
-        <Image
+        <img
           src="https://rb.gy/ogau5a"
           alt="logo"
-          width={30}
-          height={30}
           style={{
+            width: "30px", 
+            height: "30px",
             maxWidth: "100%",
             height: "auto"
           }} />

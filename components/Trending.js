@@ -20,13 +20,13 @@ function Trending({ result }) {
       </div>
 
       {result.img ? (
-        <Image
+        <img
           src={result.img}
           alt="trending"
-          width={70}
-          height={70}
           className="rounded-2xl"
           style={{
+            width: "70px",
+            height: "70px",
             maxWidth: "100%",
             height: "auto",
             objectFit: "cover"
